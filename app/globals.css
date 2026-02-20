@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #faf8f5;
+  --surface: #f2ede6;
+  --border: #e5ddd2;
+  --text: #1a1612;
+  --muted: #7a6f65;
+  --accent: #1d4ed8;
+  --accent-warm: #e8621a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
